@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+.banner {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 910.8'%3E%3Cpolygon points='1920 718.36 1195.08 910.8 688 749 0 910.8 0 0 1920 0 1920 718.36' style='fill:%23accaf6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.jumbotron {
+  padding: 4rem 3rem 8rem;
+  margin-bottom: 5rem;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+.featurette-divider:last-child {
+  border: none;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+.cta {
+  background-color: #accaf6;
+}
+
+#contact {
+  margin-bottom: 4em;
+}
+
+.d-flex .btn {
+  margin-right: 8em;
+}
+
+p.h3 {
+  padding-bottom: 1em;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
